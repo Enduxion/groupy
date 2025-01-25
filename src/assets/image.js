@@ -1,3 +1,3 @@
-import GroupyIcon from "./GroupyIcon.png";
+import GroupyIcon from "./images/GroupyIcon.png";
 
 export { GroupyIcon };
