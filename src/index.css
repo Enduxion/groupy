@@ -7,8 +7,9 @@
     src: url('./assets/fonts/Poppins-Regular.ttf');
 }
 
+/* Body is radial gradient */
 body {
-    @apply bg-primary font-poppins text-text;
+    @apply font-poppins text-text bg-primary;
 }
 
 .button-primary {

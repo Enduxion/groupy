@@ -21,7 +21,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <nav className="flex items-center h-nav justify-between bg-primary-dark p-2 pl-4 w-full fixed border-b border-accent/30 z-50">
+    <nav className="flex items-center h-nav justify-between bg-primary-dark p-2 pl-4 w-full fixed border-b border-accent/30 z-50 top-0 left-0">
       <Link to="/" className="flex item-center tracking-wide font-bold text-text-accent text-lg hover:text-text">
         Groupy.
       </Link>

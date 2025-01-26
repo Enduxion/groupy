@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { GroupyIcon } from "../../assets/image";
 
 const Sidebar = () => {
 
@@ -8,7 +7,7 @@ const Sidebar = () => {
   const visibleFriends = friends.slice(0, 10);
 
   return (
-    <div className="flex flex-col fixed mt-nav bg-primary-dark h-[calc(100vh-60px)] w-1/6 p-2 gap-8 overflow-y-scroll">
+    <div className="flex flex-col fixed left-0 bg-primary-dark h-[calc(100vh-60px)] w-1/6 p-2 gap-8 overflow-y-scroll">
       <div className="flex flex-col gap-4">
         <Link
           className="flex w-full flex-row justify-between button-primary"
